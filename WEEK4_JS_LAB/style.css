@@ -1,0 +1,106 @@
+body {
+    font-family: Segeo UI, Verdana;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #faf8f8;
+    
+}
+header {
+    background-color: #07064b;
+    color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #b15d19;
+    border: 1px solid #a1a1ee;
+    box-shadow: 2px 2px 5px rgba(10, 23, 139, 0.226)
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #060c49;
+    border-radius: 2px;
+}
+
+
+button {
+    background-color: #994f12;
+    color: white;
+    border: none;
+    cursor: pointer ;
+}
+
+
+button:hover {
+    background-color: #e06f12;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #070833;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        text-align: left;
+        padding: 10px;
+    }
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
